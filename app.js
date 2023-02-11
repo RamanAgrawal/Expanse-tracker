@@ -19,7 +19,7 @@ function addItem(e) {
         constructor(expanse, description, category) {
             this.expanse = expanse;
             this.description = description
-            this.categoryNo = category
+            this.category = category
         }
     }
     let tempObj = new Myobj(newExpense, newDescription, newCategory)
