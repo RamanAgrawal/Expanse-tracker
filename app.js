@@ -82,7 +82,7 @@ function editItem(e) {
         let obj = JSON.parse(localStorage.getItem(`${editobjkey}`))
         document.getElementById('expense').value=obj.expanse;
         document.getElementById('description').value=obj.description;
-        document.getElementById('category').category;
+       document.getElementById('category').value=obj.category;
         itemList.removeChild(li);
         localStorage.removeItem(editobjkey)
     }
